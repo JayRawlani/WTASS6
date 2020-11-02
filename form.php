@@ -46,7 +46,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="form.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="read.php">Registrant list</a>
@@ -60,7 +60,7 @@
        <div class="col-lg-4 form-container">
          <h4 class="text-center">Student form</h4>
          <!-- form start here -->
-          <form method="post" action="" enctype="multipart/form-data">
+          <form method="post" action="form.php" enctype="multipart/form-data">
           <div class="form-group">
            <label>*Roll no:</label>
            <input class="form-control"  type="text" name="rollno" placeholder="enter your roll no..">
